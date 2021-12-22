@@ -1,5 +1,5 @@
 {
-    "name": "den/advanced-forms",
+    "name": "devbaze/advanced-forms",
     "description": "Advanced form",
     "type": "wordpress-plugin",
     "autoload": {
