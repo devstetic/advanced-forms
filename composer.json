@@ -1,7 +1,7 @@
 {
     "name": "devstetic/advanced-forms",
     "description": "Advanced form",
-    "type": "wordpress-plugin",
+    "type": "wordpress-muplugin",
     "autoload": {
         "psr-4": {
             "Den\\AdvancedForms\\": "app/"
@@ -13,11 +13,18 @@
             "email": "kestenba92@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+   	"composer/installers": "~1.0"
+    },
+
+"installer-paths": {
+    "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+}
+
 	"repositories":[
 	    {
-	        "type": "composer",
-	        "url": "https://github.com/devstetic/advanced-forms.git"
+		"type": "composer",
+		"url": "https://github.com/devstetic/advanced-forms.git"
 	    }
 	]
 }
