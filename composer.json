@@ -1,0 +1,23 @@
+{
+    "name": "den/advanced-forms",
+    "description": "Advanced form",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Den\\AdvancedForms\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Benjamin",
+            "email": "kestenba92@gmail.com"
+        }
+    ],
+    "require": {},
+	"repositories":[
+	    {
+	        "type": "composer",
+	        "url": "https://github.com/devstetic/advanced-forms.git"
+	    }
+	]
+}
